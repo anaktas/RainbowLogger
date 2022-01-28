@@ -27,6 +27,18 @@ beep()
 void
 dbg(const char *format, ...)
 {
+    /** 
+     * You should probably surround this block of code
+     * with some guard in order to prevent this function
+     * to print to the stdout when your application is
+     * in release mode. if you have a config header file
+     * with a ENABLE_DEBUG preprocessor variable you can
+     * surround this block of code with:
+     * 
+     * #ifdef ENABLE_DEBUG
+     * ...
+     * #endif
+     **/
     char buf[1024];
     va_list args;
     va_start(args, format);
