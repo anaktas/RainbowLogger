@@ -7,6 +7,7 @@
 #define _LOG_H
 
 #include <stdio.h>
+#include <stdarg.h>
 
 /**
  * @brief Console colors for printf
