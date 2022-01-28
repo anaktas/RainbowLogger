@@ -33,9 +33,6 @@ void
 beep();
 
 void
-welcome();
-
-void
 dbg(const char *format, ...);
 
 void
