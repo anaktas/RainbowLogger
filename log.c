@@ -3,7 +3,6 @@
  * @author Anastasios Daris (t.daris@7linternational.com)
  */
 #include <time.h>
-#include <sqlite3.h>
 #include "log.h"
 
 /**
